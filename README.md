@@ -1,16 +1,19 @@
 # sudo
 ### This is an intresting plugin from [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo),<BR>⚠️ please note that all credits are of oh-my-zsh team
+---
+
+##### This seeams does not work in combination with [zap-zsh/vim](https://github.com/zap-zsh/vim), althogh it works with standard ZSH VI mode ( `bindkey -v` )
 
 Easily prefix your current or previous commands with `sudo` by pressing <kbd>esc</kbd> twice.
+
+## Usage
 
 To use it, add `sudo` to the plugins in your zshrc file:
 
 ```zsh
 plug "zap-zsh/sudo"
 ```
-
-## Usage
-
+  
 ### Current typed commands
 
 Say you have typed a long command and forgot to add `sudo` in front:
