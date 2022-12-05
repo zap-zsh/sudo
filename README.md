@@ -8,7 +8,7 @@ Easily prefix your current or previous commands with `sudo` by pressing <kbd>esc
 
 ## Usage
 
-To use it, add `sudo` to the plugins in your zshrc file:
+To use it, add `"zap-zsh/sudo"` to the plugins in your zshrc file:
 
 ```zsh
 plug "zap-zsh/sudo"
